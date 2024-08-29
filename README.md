@@ -1,7 +1,9 @@
 ![image](https://github.com/user-attachments/assets/64d283c8-4bc5-4296-a3fe-b931f1fe0525)
 
 Se desea crear un sistema para consulta de información de una institución utilizando un API.
+
 Para esto se debe crear una base de datos con 3 tablas iniciales:
+
 Create database instituto;
 USE instituto;
 -	Estudiante (Puede tomar varios cursos)
@@ -39,13 +41,16 @@ CREATE TABLE profesor_curso (
     FOREIGN KEY (profesor_id) REFERENCES profesor(id),
     FOREIGN KEY (curso_id) REFERENCES curso(id)
 );
+
 La información de Estudiante y profesor debe incluir teléfono y correo electrónico, agregar información que ayude a la solución del ejercicio.
 Realizar 5 al menos métodos principales de consulta de información.
+
 Crear 
 Eliminar
 Consultar por id
 Editar
 Consultar todos
+
 Los métodos se deben poder consultar por postman, pero sí se puede realizar pantallas para consultar esta información (no obligatorio).
 INICIO
 Java Springboot
